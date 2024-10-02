@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+    --font-family: "DM Sans", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--yellow-100);
+}
+
+.main {
+    margin: 1em;
+    display: grid;
+    gap: 2em;
+    place-items: center;
+}
+
+.main > * {
+    display: grid;
+    place-items: center;
+    border-radius: 1em;
+    padding: 1em;
+    gap: 1em;
+    box-shadow: 1px 1px 10px rgb(219, 212, 212);
+    width: 378px;
+}
+
+img {
+    width: 300px;
+}
+
+.social {
+    background-color: var(--purple-500);
+    color: var(--white);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.social > h1 {
+    font-size: 3em;
+}
+
+.ten-times {
+    color: var(--yellow-500);
+}
+
+.manage {
+    background-color: var(--white);
+}
+
+.maintain {
+    background: var(--yellow-500);
+    text-align: left !important;
+}
+
+.schedule {
+    background: var(--purple-100);
+}
